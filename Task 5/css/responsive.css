@@ -1,0 +1,174 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .nav {
+        width: 100%;
+        flex-direction: column;
+        height: 339px;
+        transition: all 0.4s ease-out;
+    }
+
+    .logo {
+        width: 50%;
+        position: relative;
+        right: 67px;
+    }
+
+    .logo a img {
+        width: 100%;
+    }
+
+    .nav-list {
+        position: relative;
+        right: 33px;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    .nav-list ul li a {
+        font-size: 20px;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .h-nav-resp {
+        height: 72px;
+    }
+    .toggle {
+        position: absolute;
+        top: 7px;
+        right: 3%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        transition-duration: .5s;
+        /* display: block; */
+      }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .wrapper h1,
+    .title-center h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .wrapper p {
+        font-size: 16px;
+    }
+
+    .button a {
+        padding: 6px 3px;
+    }
+
+    .inline {
+        flex-direction: column;
+    }
+
+    .divider {
+        flex-direction: column;
+    }
+
+    .video {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        width: 100%;
+        position: relative;
+        top: 28px;
+    }
+    .container1{
+        width: 100%;
+        position: relative;
+        left: 19px;
+    }
+
+    .inline .fs-fw {
+        font-size: 36px;
+    }
+    /* .column .btn a {
+        padding: 6px 3px;
+    } */
+    .column .button a {
+        padding: 6px 3px;
+    }
+    .menu-list {
+        font-size: 14px;
+        flex-direction: column;
+        position: relative;
+        left: 20px;
+      }
+      .image-box {
+        flex-direction: column;
+      }
+      .gallery-img img{
+        width: 100%;
+      }
+      .booking-form {
+        flex-direction: column;
+      }
+      .time-table {
+        width: 100%;
+        position: relative;
+    top: 32px;
+    height: 559px;
+      }
+      .input{
+        width: 285px;
+        border-radius: 0%;
+      }
+      .info{
+        flex-direction: column;
+      }
+      .left-side {
+        position: relative;
+        left: 0;
+      }
+      .input-group{
+        width: 100%;
+        flex-direction: column;
+      }
+      #LastName {
+        position: relative;
+        right: 0;
+      }
+      .box1{
+        flex-direction: column;
+        gap: 12px;
+      }
+      .label{
+        position: relative;
+        top: 12px;
+        left: 15px;
+      }
+      .footer {
+        font-size: 14px;
+        text-align: center;
+      }
+      /* @media  screen and (min-width: 768px) {
+        .toggle{
+         display: none;
+       }
+     }
+     @media  screen and (max-width: 767px) {
+       .toggle {
+         display: block;
+       }
+    } */
+}
